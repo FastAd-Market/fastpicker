@@ -218,7 +218,7 @@ class FastPickerScaffold extends HookWidget {
 
     return PopScope(
       canPop: true,
-      onPopInvoked: (didPop) {
+      onPopInvokedWithResult: (bool didPop, Object? result) {
         if (didPop) return;
         return onPop();
       },
