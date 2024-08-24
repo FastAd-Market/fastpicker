@@ -1,11 +1,10 @@
 name: fastpicker
 description: This is an intuitive photo and video picker for FastAd. It supports multiple photos and videos selection on iOS and Android.
 publish_to: 'none'
-version: 1.0.1
+version: 1.0.0
 
 environment:
-  # sdk: '>=3.5.0 <4.0.0'
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.5.0 <4.0.0'
 
 dependencies:
   flutter:
